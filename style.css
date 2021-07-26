@@ -1,0 +1,88 @@
+img{
+  width: 100%; 
+  
+}
+.fejlec {
+  position: relative;
+  margin: 50px auto;
+}
+.fejlec h1{
+  position: absolute;
+  top: -230px;
+  margin: 0;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  text-transform: none;
+}
+#nev {
+  position: absolute;
+  top: -200px;
+  font-size: 70px;
+}
+.fejlec p{
+  font-size: 20px;
+ }
+div{
+ width: 700px; 
+ margin: 20px auto;
+ font-family: 'Josefin Sans', sans-serif;
+ font-weight: 300;
+ color: #222;
+}
+blockquote {
+  position: relative;
+  background-color: #222;
+  color: white;
+  width: 700px; 
+  margin: 0 auto;
+  padding: 50px 50px;
+  font-size: 50px;
+  font-family: 'Abril Fatface', cursive;
+}
+blockquote::before {
+  content: ',,';
+  position: absolute;
+  left: 0px;
+  top: -30px;
+  font-family: 'Abril Fatface', cursive;
+}
+h1 {
+  text-transform: uppercase;
+}
+
+.tartalom h1{
+  margin: 50px 0 50px 0;
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: black;
+}
+.tartalom h2 {
+  font-weight: 400;
+  margin-top: 40px;
+	margin-bottom: 0;
+  color: black;
+}
+.tartalom h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;color: #000;
+  margin-top: 0;  
+  font-weight: 400;
+  color: black;
+}
+ul {
+  list-style-type: square;
+}
+.fejlec ul {
+	font-size: 20px;
+}
+#lablec {
+	margin-top: 40px;
+	border-top: 3px solid black;
+}
+#lablec h1{
+  margin: 50px 0 50px 0;
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
